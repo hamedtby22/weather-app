@@ -1,0 +1,56 @@
+@use '../../scss/' as *;
+
+.text {
+    @include flex();
+    padding: 10px 0;
+    font-size: x-large;
+    color: rgba(44, 37, 0, 0.719);
+}
+.details {
+    @include flex(center,space-between);
+    color: white;
+    padding: 10px 0;
+
+    img {
+        width: 80px;
+        height:80px;
+    }
+    p {
+        font-size: 60px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    &-weather {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+
+        &-real {
+            @include flex();
+            color: #fff;
+            font-size: small;
+            padding: 5px;
+            span {
+                margin: 0 10px;
+                font-size: medium;
+            }
+        }
+
+        &-rise {
+            @include flex();
+            margin: 0 10px;
+            color: wheat;
+            font-size: small;
+            padding: 10px 0;
+
+            p {
+                color:bisque ;
+            }
+            span {
+                font-size: medium;
+                margin: 0 10px;
+            }
+            
+        }
+    }
+}

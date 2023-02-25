@@ -1,0 +1,31 @@
+@use '../../scss/' as *;
+
+.forecast-title {
+    @include flex(center,flex-start);
+    margin-top: 6px;
+    border: 1px solid #989898;
+    
+    p{ 
+        color: #fff;
+        font-size: medium;
+        font-weight: bold;
+    }
+    }
+.forecast-items {
+    @include flex(center,space-between);
+    flex-direction: row;
+    color: #fff;
+}
+.forecast-section {
+    @include flex(center,center);
+    flex-direction: column;
+
+    p{
+        font-size: small;
+        color: lightgray;
+    }
+    img {
+        width: 20px;
+        height: 20px;     
+    }
+}

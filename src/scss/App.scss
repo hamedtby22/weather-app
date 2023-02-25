@@ -1,0 +1,24 @@
+$bodyColor: #eeeeee;
+$mainColor:#0077ff;
+$spacing: 48px;
+$mobileSpacing: 24px;
+$borderRadius: 30px;
+$fontFamily: 'Roboto', sans-serif;
+
+$fontSizeMedium: 1rem;
+$fontSizeLarge: 1.50rem;
+
+$mobile-width: 600px;
+$tablet-width: 1200px;
+
+body {
+    background-color: $bodyColor;
+}
+.App {
+    align-items: center;
+    background-color: #0077ff;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #989898;
+}

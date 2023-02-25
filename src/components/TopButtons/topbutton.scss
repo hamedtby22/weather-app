@@ -1,0 +1,16 @@
+@use '../../scss/' as *;
+
+.nav {
+    @include flex(center,space-around);
+    margin: 10px 0;
+    background-color: $mainColor;
+
+    &-btn {
+        padding: 15px;
+        margin: 15px;
+        border: none;
+        background-color: $mainColor;
+        cursor: pointer;
+        color: #ffffff;
+    }
+}
